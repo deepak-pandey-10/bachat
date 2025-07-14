@@ -5,9 +5,6 @@ function Investment() {
   return (
     <div className='flex'>
         <Sidebar/>
-        <div>
-            <h1>Investment</h1>
-        </div>
     </div>
   )
 }

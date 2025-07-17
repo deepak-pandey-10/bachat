@@ -12,7 +12,7 @@ function Dashboard() {
       <Sidebar />
       <div className="sm:ml-64 mt-12 sm:mt-0 p-6 overflow-y-auto">
           <div className='flex justify-between items-center mb-6'>
-            <h1 className='text-2xl font-bold'>Financial Health</h1>
+            <h1 className='text-3xl font-bold'>Financial Health</h1>
             <button className='text-sm font-semibold'>Generate Detailed Report</button>
           </div>
           <Overview />

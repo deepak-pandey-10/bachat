@@ -1,13 +1,13 @@
 import React from 'react'
-import {FaChartBar,FaChartLine, FaHeartbeat ,FaRegClock} from "react-icons/fa"
+import {FaRegClock} from "react-icons/fa"
 import { MdTrendingUp } from 'react-icons/md'
 import {TbActivityHeartbeat} from 'react-icons/tb'
 
 function Overview() {
   return (
         <div>
-            <div className='flex flex-wrap gap-4 sm:gap-4 lg:gap-6'>
-                <div className='bg-purple-100 h-30 w-70 rounded-xl text-zinc-900 p-4'>
+            <div className='flex flex-nowrap gap-4 sm:gap-4 lg:gap-6 overflow-auto'>
+                <div className='bg-purple-100 h-30 w-70 rounded-xl text-zinc-900 p-4 shrink-0'>
                 <div className='flex justify-between p-1'>
                     <p className='font-bold text-sm '>Net Worth</p>
                     <p>₹</p>
@@ -17,7 +17,7 @@ function Overview() {
                 </div>
 
 
-                <div className='bg-purple-100 h-30 w-70 rounded-xl text-zinc-900 p-4'>
+                <div className='bg-purple-100 h-30 w-70 rounded-xl text-zinc-900 p-4 shrink-0'>
                 <div className='flex justify-between p-1'>
                     <p className='font-bold text-sm '>Investment Returns</p>
                     <MdTrendingUp/>
@@ -27,7 +27,7 @@ function Overview() {
                 </div> 
 
 
-                <div className='bg-purple-100 h-30 w-70 rounded-xl text-zinc-900 p-4'>
+                <div className='bg-purple-100 h-30 w-70 rounded-xl text-zinc-900 p-4 shrink-0'>
                 <div className='flex justify-between p-1'>
                     <p className='font-bold text-sm '>Debt-to-Income Ratio</p>
                     <TbActivityHeartbeat/>
@@ -36,7 +36,7 @@ function Overview() {
                 <p className='text-xs text-muted-foreground'>Healthy range: below 0.36</p>
                 </div>
 
-                <div className='bg-purple-100 h-30 w-70 rounded-xl text-zinc-900 p-4'>
+                <div className='bg-purple-100 h-30 w-70 rounded-xl text-zinc-900 p-4 shrink-0'>
                 <div className='flex justify-between p-1'>
                     <p className='font-bold text-sm '>Financial Health Score</p>
                     <FaRegClock/>

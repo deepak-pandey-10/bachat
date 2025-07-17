@@ -39,7 +39,7 @@ const Alldata = [
 
 function TreeMap() {
   return (
-    <ResponsiveContainer height='85%' className="mt-4 p-5">
+    <ResponsiveContainer height={300} className="mt-2 p-5">
         <Treemap data={Alldata} dataKey='size' aspectRatio={4 / 3} stroke='#fff' fill='#8884d8'>
             <Tooltip content={
                 <CustomeTooltip active={false} payload={[]} lable={""}/>

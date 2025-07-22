@@ -48,7 +48,7 @@ function Login() {
                 <FaGoogle className='w-30 h-8 bg-zinc-700 p-1'/>
             </div>
 
-            <p className='text-sm text-center mt-10 mb-10'>Don't have an account? <Link className='text-emerald-600' href="./signup">Sign up now</Link></p>
+            <p className='text-sm text-center mt-10 mb-10'>Dont have an account? <Link className='text-emerald-600' href="./signup">Sign up now</Link></p>
             
         </div>
     </div>

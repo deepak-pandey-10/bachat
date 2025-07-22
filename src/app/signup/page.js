@@ -19,7 +19,7 @@ function Signup() {
                 <div className='mb-4'>
                     <label className='align-left ml-5'>Full name</label><br></br>
                     <input className='ml-4 p-1.5 w-125 bg-zinc-700 border-2 border-gray-500 rounded-lg mt-1' type='text' placeholder='
-
+                    
 👤  Enter your name' required/>
                 </div>
 

@@ -4,6 +4,7 @@ import Woverview from './wcomponents/Woverview'
 import SpendingCategories from './wcomponents/SpendingCategories'
 import SpendingTrends from './wcomponents/SpendingTrends'
 import WalletTransactions from './wcomponents/WalletTransactions'
+import WalletfinancialGoals from './wcomponents/WalletfinancialGoals'
 
 function Wallet() {
   return (
@@ -35,6 +36,11 @@ function Wallet() {
                 <h1 className='text-xl ml-2 font-bold '>Recent Transportations</h1>
                 <p className='text-sm text-gray-500 text-muted-foreground ml-2'>Your financial activities for the past week</p>
                 <WalletTransactions/>
+          </div>
+          <div className='bg-purple-50 h-auto w-full p-5 rounded text-black mt-5'>
+                <h1 className='text-xl ml-2 font-bold '>Financial Goals</h1>
+                <p className='text-sm text-gray-500 text-muted-foreground ml-2'>Track your progress towards your goals</p>
+                <WalletfinancialGoals/>
           </div>
         </div>
       </div>

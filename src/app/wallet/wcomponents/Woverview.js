@@ -11,7 +11,7 @@ function Woverview() {
                 <p className='font-bold text-sm '>Total Balance</p>
                 <p>₹</p>
             </div>
-            <h1 className='text-2xl font-bold mt-1'>₹45,23,000</h1>
+            <h1 className='text-2xl font-bold mt-1'>₹4,23,000</h1>
             <p className='text-xs text-muted-foreground'>+2.5% from last month</p>
             </div>
 

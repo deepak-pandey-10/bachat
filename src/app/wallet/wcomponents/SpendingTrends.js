@@ -13,7 +13,7 @@ const monthlyspend= [
 
 function SpendingTrends() {
   return (
-    <ResponsiveContainer width='100%' height={370} className='p-5 mt-3 '>
+    <ResponsiveContainer width='100%' height={370} className='p-5 mt-3'>
         <LineChart data={monthlyspend}>
             <CartesianGrid strokeDasharray='3 3'/>
             <XAxis dataKey='month'/>

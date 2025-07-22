@@ -15,7 +15,7 @@ const cashdata = [
 function Areachart() {
   return (
     <ResponsiveContainer width='100%' height={400}>
-        <AreaChart data={cashdata} className='p-5 mt-4'>
+        <AreaChart data={cashdata} className='p-5 mt-4 mb-2'>
             <YAxis/>
             <XAxis dataKey="month"/>
             <CartesianGrid strokeDasharray='3 3'/>

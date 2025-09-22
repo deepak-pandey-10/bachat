@@ -15,12 +15,12 @@ function Profile() {
             <div className='grid gap-4 md:grid-cols-2 mt-4 ml-2'>
                 <div className='space-y-2 mt-2'>
                     <label className='text-sm font-bold text-gray-700'>First Name</label><br></br>
-                    <input className='border border-gray-300  mt-1 w-full h-9 p-2 text-gray-600 rounded text-sm shadow' placeholder='Vikash'></input>
+                    <input className='border border-gray-300  mt-1 w-full h-9 p-2 text-gray-600 rounded text-sm shadow' placeholder='Deepak'></input>
                 </div>
 
                 <div className='space-y-2 mt-2'>
                     <label className='text-sm font-bold text-gray-700'>Last Name</label><br></br>
-                    <input className='border border-gray-300  mt-1 w-full h-9 p-2 text-gray-600 rounded text-sm shadow' placeholder='Kumar'></input>
+                    <input className='border border-gray-300  mt-1 w-full h-9 p-2 text-gray-600 rounded text-sm shadow' placeholder='Pandey'></input>
                 </div>
 
                 <div className='space-y-2 mt-2'>
